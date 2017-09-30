@@ -1,0 +1,275 @@
+/*-----------------------------------------------------------------------------------
+
+	Template Name: phototime
+	Template URI: http://www.softtech-it.com
+	Description: photo related template
+	Author: Mtm Sujan
+	Author URI: http://www.mtmsujan.com
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+	1. Typography
+	2. Header Area
+		2.1 Menu Area
+		2.2 Welcome Text 
+		2.3 Social Media 
+	3. Getting Started
+	4. Design Area
+	5. Community Area
+	6. Subscribe Area
+	7. Download Area
+	8. Footer Area
+
+-----------------------------------------------------------------------------------*/
+/******* 1.Typography *************/
+
+@font-face {
+	font-family: "something";
+	src: ('fonts/something.woff') format ('woff');
+}
+@font-face {
+	font-family: "gothamroundedbook";
+	src: ('fonts/gothamroundedbook.woff') format ('woff');
+}
+body, 
+p {
+	font-family: "gothamroundedbook";
+	font-size: 12px;
+	line-height: 1.3em;
+}
+h3 {
+	color: #24A183;
+	font-size: 14px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	line-height: 1.3em;
+}
+h2 {
+	color: #FFFFFF;
+	font-size: 25px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	
+}
+h5 {
+	font-size: 14px;
+	font-family: "gothamroundedbook";
+	letter-spacing: 2px;
+}
+p {
+	color: #A6A7A9;
+	font-size: 12px;
+	line-height: 2em;
+	letter-spacing: 1px;
+}
+strong {
+	color: #666666;
+}
+/******* 2.header-area *************/
+.container {
+	width: 80%;
+	margin: 0 auto;
+	max-width: 960px;
+}
+
+.header-area {
+	background: url('images/header-bg.jpg') no-repeat 0 0 / 100% 100%;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 25px 0;
+}
+
+/******* 2.1 Menu Area *************/
+
+.menu-area ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.menu-area ul li {
+	display: inline;
+	margin: 0 24px;
+}
+.menu-area ul li a {
+	color: #FFFFFF;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 12px;
+	border-bottom: 1px solid transparent;
+	transition: 0.5s;
+}
+.menu-area ul .logo a:hover {
+	border: none;
+}
+.menu-area ul .logo a{
+	border: none;
+}
+.menu-area ul li a:hover {
+	color: #16A086;
+	border-bottom: 2px solid #16A086;
+}
+.menu-area ul .logo img {
+	margin: 0 40px;
+	width: 40px;
+	height: auto;
+}
+
+/******* 2.2 Welcome Text  *************/
+
+.welcome-text {
+	margin-top: 150px;
+	overflow: hidden;
+}
+
+.btn {
+	background: #16A086;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px 25px;
+	font-size: 12px;
+	border-radius: 3px;
+	font-weight: bold;
+	display: inline-block;	
+	border: 1px solid transparent;
+}
+.btn:hover {
+	background: #FFFFFF;
+	color: #16A086;
+	border: 1px solid #16A086;
+}
+
+/******* 2.3 Social Media *************/
+.social-media {
+	overflow: hidden;
+	margin-top: 170px;
+}
+
+.social-media ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.social-media ul li {
+	display: inline;
+	margin: 0 10px;
+}
+.social-media ul li a {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 18px;
+	
+}
+.social-media ul li a:hover {
+	color: #16A086;
+	
+}
+
+/******* 3. Getting Started *************/
+
+.getting-started {
+	background-color: #F5F6F8;
+	overflow: hidden;
+	
+}
+
+
+.getting-started .text-area {
+	background-image: url('images/hand.png');
+	background-position: top right;
+	background-size: 50% auto;
+	background-repeat: no-repeat;
+	padding-bottom: 20px;
+	margin-top: 30px;
+}
+.getting-started .start-text {
+	width: 50%;
+}
+.text-area p {
+	margin-bottom: 30px;
+}
+.col-1-2 {
+	width: 50%;
+	float: left;
+	overflow: hidden;
+}
+
+/******* 4. design-area *************/
+.design-area {
+	overflow: hidden;
+	margin-top: 60px;
+	
+}
+.design {
+	background-image: url('images/mobile.png');
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: 30%;
+	overflow: hidden;
+	
+}
+
+.design-text {
+	width: 40%;
+	float: right;
+	overflow: hidden;
+}
+.slide {
+	margin: 50px 0;
+}
+.arrow i {
+	color: #353535;
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+/******* 6. Subscribe Area *************/
+
+.subscribe-area {
+	background: url('images/subscribe-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 0;
+	padding: 200px;	
+}
+.subscribe-area h3 {
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 18px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	margin-top: 60px;
+	
+}
+.subscribe-area form {
+	width: 240px;
+	margin: 0 auto;
+}
+.subscribe-area form input[type="email"] {
+	background: #FFFFFF;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	border: none;
+	border-radius: 0 0 0 3px;
+	margin-right: 0;
+}
+.subscribe-area form button {
+	background: #16A086;
+	color: #FFFFFF;
+	padding: 10px 10px;
+	border: none;
+	border-radius: 0 0 0 3px;
+	margin-left: -3px;
+}
+
+
+
+
+
+
